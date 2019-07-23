@@ -1,0 +1,106 @@
+body{
+  background: url('plnyr.jpg');
+  background-size: cover;
+  font-family: arial;
+  color: BLACK;
+}
+h1{
+  text-align: center;
+  margin-left: 15px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: white;
+}
+h2{
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+.logo{
+  position:relative;
+  float: right;
+  margin-top: -150px;
+  height: 120px;
+}
+.str{
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: fantasy;
+}
+hr{
+
+  width: 95%;
+}
+
+.swagbutton{
+   text-decoration: none;
+  color:#31A6ff;
+  font-family: arial;
+  font-weight: 100;
+  font-size: 56px;
+  text-align: center;
+  border: solid 2px #31A6FF;
+  border-radius: 50px;
+
+  padding: 10px 60px;
+
+}
+.swagbutton:hover{
+  background-color: #31A6FF;
+  color: #fff;
+  transition-duration: 500ms;
+}
+.swagbutto{
+   text-decoration: none;
+  color:#31A6ff;
+  font-family: arial;
+  font-weight: 100;
+  font-size: 56px;
+  text-align: center;
+  border: solid 2px #31A6FF;
+  border-radius: 50px;
+  padding: 10px 60px;
+
+}
+.swagbutto:hover{
+  transition-duration: 500ms;
+  background-color: #31A6FF;
+  color: #fff;
+}
+.swagbutt{
+   text-decoration: none;
+  color:#31A6ff;
+  font-family: arial;
+  font-weight: 100;
+  font-size: 56px;
+  text-align: center;
+  border-radius: 50px;
+  border: solid 2px #31A6FF;
+  padding: 10px 60px;
+
+}
+.swagbutt:hover{
+  transition-duration: 500ms;
+  background-color: #31A6FF;
+  color: #fff;
+}
+.swagbut{
+   text-decoration: none;
+  color:#31A6ff;
+  font-family: arial;
+  font-weight: 100;
+  font-size: 56px;
+  text-align: center;
+  border-radius: 50px;
+  border: solid 2px #31A6FF;
+  padding: 10px 60px;
+
+}
+.swagbut:hover{
+  transition-duration: 500ms;
+  background-color: #31A6FF;
+  color: #fff;
+}

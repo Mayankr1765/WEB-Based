@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <title>Indian Railway|Sign Up</title>
+<link rel="stylesheet" type="text/css" href="sign.css">
+</head>
+<body>
+  <h1>Indian Railway</h1>
+  <img src="irctc.png" class="logo">
+<div class="loginBox">
+<form action="sm.php" method="GET" >
+  <h2>Create your personalised account</h2>
+  <hr>
+<table>
+
+<tr><td> Name:</td><td><input type="text"name="name" id="name" value=" "></td> </tr>
+<tr>  <td>Father's Name:</td><td><input type="text"  name="fname" id="fname" value=" "></td> </tr>
+<tr><td> D.O.B:</td><td><input type="date"  name="dob" value=" "></td> </tr>
+<tr><td>Gender:</td><td>Male<input type="radio" value="male" name="gen"></td>
+                            <td>Female<input type="radio" value="female" name="gen"></td></tr>
+<tr><td>Adress:</td><td><input type="text" name="adr" value=" "></td></tr>
+<tr> <td> Married:</td> <td>Yes<input type="radio"  value="married" name="mar"></td>
+                                            <td>No<input type="radio" value="Bachelor" name="mar"></td>
+</tr>
+<tr> <td>Occupation:</td><td><select name="occ" class="sex">
+<option   value="student">Student</option>
+<option  value="business">Business</option>
+<option  value="private">Private job</option>
+<option   value="govt">Goverment Employee</option>
+</select></td>
+<tr><td>E-mail:</td><td><input type="text" name="eml"  id="eml" value=" "></td></tr>
+<tr> <td> User id:</td><td><input type="text"  name="user" value=" "></td></tr>
+<tr>  <td>Password:</td><td><input type="password" name="pass" id="password" value=""></td></tr>
+<tr> <td> Confirm Password:</td><td><input type="password" name="cpass" id="cpassword" value=""></td></tr
+</tr>
+<tr>  <td>Aadhar:</td><td><input type="number" name="adh" value=" "></td></tr>
+
+
+
+</table>
+<input type="submit" name="submit" value="Create Account" >
+
+</form>
+</div>
+<script type="text/javascript">
+function validate()
+{
+    var psc=/^(?=.*[0-9]){5,10}$/;
+    var nmc=/^[A-Za-z. ]{3,30}$/;
+    var fnc=/^[A-Za-z. ]{3,30}$/;
+    var emc=/^[A-Za-z_]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z]{3,30}$/;
+    var x=document.getElementById('password').value;
+    if (psc.test(x))
+    {
+        document.getElementById('password').innerHTML="";
+    }
+    else{
+        document.getElementById('password').innerHTML="** INVALID PASSWORD **";
+        return false;
+    }
+
+}
+</script>
+</body>
+</html>

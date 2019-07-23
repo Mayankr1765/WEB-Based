@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+        body{
+    background-image:url("813151.jpg");
+     height: 100%;
+
+        margin-top:50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    form
+    {
+    float:right;
+    margin-right: 30px;
+    padding: 20px;
+    height:auto;
+    width:auto;
+    background-color:darkgrey;
+    border-radius: 30px;
+
+
+
+    }
+    .mar{
+        padding: 20px;
+    }
+
+</style>
+
+
+    </head>
+    <body>
+        <h2>
+            Passengers Details
+        </h2>
+        <form action="book.php" method="GET">
+            <table>
+
+                    <tr>
+                            <td>
+                                Name:
+                            </td>
+                            <td>
+                                    <input type="text" name="name1" >
+                            </td>
+
+                    <td class="mar">
+                        Gender:
+                    </td>
+                    <td>
+                            <input type="radio" name="gender" value="Male" id="gender">Male
+                            <input type="radio" name="gender" value="Female" id="gender">Female
+                            <input type="radio" name="gender" value="Other" id="gender">Other
+                    </td>
+
+                    <td class="mar">
+                        Age:
+                    </td>
+                    <td>
+                            <input type="number" name="age" >
+                    </td>
+                    <td class="mar">
+                        Class:
+                    </td>
+                    <td>
+                            <select name="class">
+                                <option value="sleeper" >Sleeper</option>
+                                <option value="AC III" >AC III</option>
+                                <option value="AC II" >AC II</option>
+                                <option value="AC I" >AC I</option>
+                            </select>
+                    </td>
+                   <td class="mar">
+                        Birth Preference
+                    </td>
+                    <td>
+                            <select name="bp1">
+                                <option value="lower" >Lower</option>
+                                <option value="middle" >Middle</option>
+                                <option value="upper" >Upper</option>
+                                <option value="side_lower" >Side Lower</option>
+                                <option value="side_upper" >Side Upper</option>
+                            </select>
+                    </td>
+            </tr>
+            <tr>
+                    <td>
+                        Name2:
+                    </td>
+                    <td>
+                            <input type="text" name="name2" >
+                    </td>
+
+            <td class="mar">
+                Gender2:
+            </td>
+            <td>
+                    <input type="radio" name="gen" value="Male" id="gen">Male
+                    <input type="radio" name="gen" value="Female" id="gen">Female
+                    <input type="radio" name="gen" value="Other" id="gen">Other
+            </td>
+
+            <td class="mar">
+                Age2:
+            </td>
+            <td>
+                    <input type="number" name="ag" >
+            </td>
+            <td class="mar">
+                Class:
+            </td>
+            <td>
+                    <select name="class">
+                        <option value="sleeper" >Sleeper</option>
+                        <option value="AC III" >AC III</option>
+                        <option value="AC II" >AC II</option>
+                        <option value="AC I" >AC I</option>
+                    </select>
+            </td>
+           <td class="mar">
+                Birth Preference
+            </td>
+            <td>
+                    <select name="bp2">
+                        <option value="lower" >Lower</option>
+                        <option value="middle" >Middle</option>
+                        <option value="upper" >Upper</option>
+                        <option value="side_lower" >Side Lower</option>
+                        <option value="side_upper" >Side Upper</option>
+                    </select>
+            </td>
+    </tr>
+
+
+
+        </table>
+        <p>
+            <span><input type="reset"></span>
+            <span><input type="submit" name="sub"></span>
+        </p>
+      </form>
+    </body>
+</html>

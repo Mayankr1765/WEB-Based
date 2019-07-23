@@ -1,0 +1,52 @@
+
+h1
+{
+text-align:center;
+color:olive;
+}
+p{
+text-align:left;
+}
+div
+{
+text-align:center;
+background-color:darkgrey;
+}
+body
+{
+background-image:url(r3.jpg);
+background-size: cover;
+margin-left:50px;
+margin-right:40 px;
+margin-top:40 px;
+}
+.add{
+  border-radius: 10px;
+  padding: 50px 50px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:340px;
+  height:220px;
+  box-sizing: border-box;
+  background: rgba(8,56,135,.8);
+}
+.add a{
+  border: none;
+  border-bottom: 1px solid #fff ;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+}
+.add a:hover{
+  background: #66ff66;
+color: grey;
+}
+p{
+  font-size: 20px;
+  text-align: center;
+}

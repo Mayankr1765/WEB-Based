@@ -1,0 +1,11 @@
+body{
+    background-image:url("813151.jpg");
+}
+div{
+    margin-top:100px;
+    margin-left:300px;
+    margin-right:500px;
+    background-color: grey;
+    border-radius: 10px;
+
+}
